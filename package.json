@@ -1,0 +1,19 @@
+{
+  "name": "vite-react-typescript-electron",
+  "version": "1.0.0",
+  "description": "A simple amd easy to use React typescript + electron template for javascript developer who wanna build a desktopn app",
+  "main": "main.js",
+  "scripts": {
+    "start": "cd app && npm run build && cd ../ && electron .",
+    "dev": "cross-env STATUS=dev npx electronmon --trace-warnings ."
+  },
+  "keywords": ["React", "Vite", "Typescript", "electron", "desktop"],
+  "author": "Andritiana Steve Rakotonimanana",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^27.1.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
